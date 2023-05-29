@@ -5,8 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Help - you need help?</title>
-</head>
+    <link rel="stylesheet" href="./main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto+Mono&display=swap" rel="stylesheet">
+    </head>
+
 <body>
-    
+    <!--inicio cabeçalho-->
+    <header>
+     <div class="container">
+        <h1>Help!</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="#">Preciso de ajuda!</a>
+                </li>
+            </ul>
+        </nav>
+     </div>
+    </header>
+    <!--fim cabeçalho-->
+
+    <!--inicio seção sobre-->
+    <section id="about">
+       <div class="container">
+            <img class="logo" src="./img/help.jpg" alt="logo do site">
+            <div id="text">
+                <h2>Sobre Nós</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe voluptatem harum quod aliquam vel dignissimos enim odit voluptatum itaque magni minima, laudantium fuga hic, id illum molestias repellendus, inventore eius.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi similique saepe repellat repellendus, ea enim nostrum hic sit laboriosam labore nisi ab beatae iste perspiciatis. Beatae reprehenderit aliquid eos temporibus.</p>
+            </div> 
+            <div id="method">
+                <ul class="social-links">
+                    <li>
+                        <a href="#" title="Siga-nos no instagram">
+                            <img src="./img/instagram.png" alt="logo instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Siga-nos no facebook">
+                            <img src="./img/facebook.png" alt="logo facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Visite nosso canal no youtube">
+                            <img src="./img/youtube.png" alt="logo logo youtube">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+       </div>
+    </section>
+    <!--fim seção sobre-->
+
+    <!--inicio seção i need help-->
+    <section id="contact">
+        <div class="container">
+            <h2>Preciso de ajuda!</h2>
+            <div>
+                <form>
+                    <input type="text" placeholder="Seu Nome" required>
+                    <input type="text" placeholder="Seu Endereço" required> 
+                    <input type="tel" placeholder="Seu Telefone" required>
+                    <textarea placeholder="Conte-nos" required></textarea>
+                    <button type="submit">Help!</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--fim seção i need help-->
+
+    <!--inicio rodapé-->
+    <footer>
+        <p>
+            &copy; help - todos os direitos reservados - 2023
+        </p>
+    </footer>
+    <!--fim rodapé-->
+
 </body>
 </html>
