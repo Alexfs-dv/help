@@ -7,7 +7,7 @@
 
 /*--------------Inicio cabeçalho---------------*/
 
-header{
+header, #help-icon{
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -37,16 +37,16 @@ header a:hover{
 }
 
 .container {
-    max-width: 1180px; /*largura máxima*/
-    width: 100%; /*largura*/
-    margin: 0 auto; /*centraliza o conteúdo*/
+    max-width: 1180px; 
+    width: 100%; 
+    margin: 0 auto; 
 }
 
 header .container,
 section .container {
-    display:flex; /*menu e titulo lado a lado*/
-    align-items: center; /*centraliza na vertical*/
-    justify-content: space-between; /*distribui o titulo e menu entre as margens dir/esq*/
+    display:flex; 
+    align-items: center; 
+    justify-content: space-between; 
 }
 
 /*--------------Fim cabeçalho---------------*/
@@ -57,11 +57,11 @@ section .container {
     height: 480px;
 }
 
-#text{
+#column-about{
     margin-left: 48px;
 }
 
-#text h2{
+#column-about h2{
     margin-bottom: 16px;
 }
 
@@ -79,22 +79,22 @@ section .container {
     margin-right: 16px;
 }
 
-#method .social-links{
+#column-about .social-links{
     display: flex;
 }
 
-#about{
+#column-about{
     position: relative;
 }
 
-#about .social-links{
+#column-about .social-links{
     position: absolute;
-    bottom: 0;
-    left: 900px;
+    padding: 24px 0;
+    left: 0;
 }
 /*--------------Fim seção sobre---------------*/
 
-/*--------------Inicio seção I need help---------------*/
+/*--------------Inicio seção preciso de ajuda---------------*/
 
 #contact .container{
     display: block;
@@ -103,10 +103,10 @@ section .container {
 
 #contact .container h2{
     width: 320px;
-    background-color: rgba(233, 97, 18,0.2);
+    background-color: rgba(233, 97, 18,0.3);
     padding:6px;
     margin-bottom: 16px;
-    color:rgba(233, 97, 18,1);
+    color:rgba(233, 97, 18,0.8);
 }
 
 form input,
@@ -128,17 +128,37 @@ input:focus, textarea:focus{
 }
 
 form button{
-    background-color: rgba(233, 97, 18,1);
-    color: #fff;
+    background-color: rgba(233, 97, 18,0.4);
+    color: red;
     border: none;
     cursor: pointer;
 }
 
 form button:hover{
     background-color:rgba(233, 32, 18, 1);
+    color: #fff;
 }
 
-/*--------------fim seção I need help---------------*/
+#contact .container{
+    position: relative;
+}
+
+#help-icon{
+    position: absolute;
+    right: 21%;
+    top: 30%;
+    font-size: 120px;
+    text-shadow: 0.015em 0.015em rgb(161, 151, 144);
+    color: rgba(233, 97, 18,1);
+}
+
+#help-icon .slogan{
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+}
+
+/*--------------fim seção preciso de ajuda---------------*/
 
 /*--------------Inicio footer---------------*/
 
